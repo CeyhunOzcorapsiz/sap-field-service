@@ -144,12 +144,6 @@ Uygulama SAP Business One Service Layer (genellikle port 50000) uzerinden iletis
 
 ---
 
-## Ekran Goruntuleri
-
-> Ekran goruntuleri ileride eklenecektir.
-
----
-
 ## Lisans
 
 MIT

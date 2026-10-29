@@ -12,15 +12,6 @@ kopyada isimler ve ayarlar örnek değerlerle değiştirildi.
 |---|---|
 | ![Giriş ekranı](docs/img/login.png) | ![Telefonda giriş](docs/img/login-mobile.png) |
 
-```mermaid
-flowchart LR
-  T[Teknisyen<br/>telefon / tablet] --> APP[Next.js uygulaması<br/>sayfalar + API'ler]
-  M[Yönetici<br/>masaüstü] --> APP
-  APP -->|REST, tek ortak oturum| SL[SAP B1 Service Layer]
-  SL --> DB[(SAP HANA)]
-  APP --> FS[(JSON dosyaları<br/>PIN'ler, imzalar,<br/>aktif işler)]
-```
-
 ## Özellikler
 
 - **Servis kayıtları:** SAP servis çağrılarını aç, güncelle, kapat; servis ve arıza tipleri SAP'den

@@ -12,15 +12,6 @@ replaced with examples.
 |---|---|
 | ![Sign-in screen](docs/img/login.png) | ![Sign-in on a phone](docs/img/login-mobile.png) |
 
-```mermaid
-flowchart LR
-  T[Technician<br/>phone / tablet] --> APP[Next.js app<br/>pages + API routes]
-  M[Manager<br/>desktop] --> APP
-  APP -->|REST, one shared session| SL[SAP B1 Service Layer]
-  SL --> DB[(SAP HANA)]
-  APP --> FS[(JSON files<br/>PINs, signatures,<br/>active jobs)]
-```
-
 ## Features
 
 - **Service calls:** create, update and close SAP service calls; service and problem types come
